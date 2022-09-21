@@ -1,0 +1,232 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cook/orderPage",
+			"style": {
+				"navigationBarTitleText": "查看订单",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/admin/dishManage",
+			"style": {
+				"navigationBarTitleText": "菜品管理",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/admin/userManage",
+			"style": {
+				"navigationBarTitleText": "员工管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/admin/orderPage",
+			"style": {
+				"navigationBarTitleText": "查看订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/waiter/changeOrderPage",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/waiter/dishPage",
+			"style": {
+				"navigationBarTitleText": "查看菜品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/waiter/orderPage",
+			"style": {
+				"navigationBarTitleText": "查看订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/waiter/submitOrderPage",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/userInfo/change/changeIndex",
+			"style": {
+				"navigationBarTitleText": "修改资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/change/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/change/changeNickname",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/change/changeEmail",
+			"style": {
+				"navigationBarTitleText": "修改邮箱",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/orderInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/businessAnalysePage/businessAnalysePage",
+			"style": {
+				"navigationBarTitleText": "数据分析",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/addDish",
+			"style": {
+				"navigationBarTitleText": "添加菜品",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/changeDish",
+			"style": {
+				"navigationBarTitleText": "更改菜品",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/announcement/announcementPage",
+			"style": {
+				"navigationBarTitleText": "公告",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/admin/announcement/announcementAddPage",
+			"style": {
+				"navigationBarTitleText": "添加公告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/adminUserInfo",
+			"style": {
+				"navigationBarTitleText": "个人",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/addInviteCode",
+			"style": {
+				"navigationBarTitleText": "邀请码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userInfo/fellowList",
+			"style": {
+				"navigationBarTitleText": "查看同事",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admin/category/changeCategory",
+			"style": {
+				"navigationBarTitleText": "修改标签",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/forgetPassword",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/waiter/serve",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView UI",
+		"navigationBarBackgroundColor": "#FF9E28",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+
+				"pagePath": "pages/cook/orderPage"
+			},
+			{
+				"pagePath": "pages/userInfo/userInfo"
+			},
+			{
+				"pagePath": "pages/admin/dishManage"
+			},
+			{
+				"pagePath": "pages/admin/orderPage"
+			}, {
+				"pagePath": "pages/waiter/orderPage"
+			}, {
+				"pagePath": "pages/userInfo/adminUserInfo"
+			}, {
+				"pagePath": "pages/admin/announcement/announcementPage"
+			}, {
+				"pagePath": "pages/admin/category/changeCategory"
+			}, {
+				"pagePath": "pages/waiter/serve"
+			}
+		]
+	}
+}
